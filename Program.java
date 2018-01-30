@@ -1,5 +1,3 @@
-//Rosanna Kristofferson
-//rokr9648
 
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -233,4 +231,3 @@ public class Program {
         return null;
     }
 }
-
