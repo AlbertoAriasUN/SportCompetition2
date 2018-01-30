@@ -1,6 +1,3 @@
-//Rosanna Kristofferson
-//rokr9648
-
 public class Result implements Comparable<Result> {
 
     private double result;
