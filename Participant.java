@@ -1,5 +1,3 @@
-//Rosanna Kristofferson
-//rokr9648
 
 import java.util.ArrayList;
 
@@ -92,26 +90,3 @@ public class Participant {
         return getStartNumber() + " " + getFullName() + " " + getTeam();
     }
 }
-
-
-
-/*            boolean eventFound = false;
-            for (SportEvent e : events) {
-                if (e.getEventName().equals(result.getSportEvent().getEventName())) {
-                    eventFound = true;
-                }
-            }
-            if (!eventFound) {
-                events.add(result.getSportEvent());
-            }
-
-            for (SportEvent event : events) {
-                System.out.print("Result for " + firstName + " " + lastName + " " + team + " " + event);
-                for (Result r : resultList) {
-                    if (r.getSportEvent().getEventName().equals(event.getEventName())) {
-                        System.out.print(r.getResult() + ", ");
-                    }
-                }
-                System.out.println();
-            }
-        }*/
